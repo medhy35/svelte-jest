@@ -15,12 +15,12 @@ describe('Assertion Test', function () {
 
 });
 
-describe('Test sur des variables', function () {
+describe('Matches Variables', function () {
 
-   test('pas de I dans team', ()=> {
+   test('not I in team', ()=> {
        expect('team').not.toMatch(/I/);
    });
-    test('il ya "stop" dans Christoph', () => {
+    test('there is "stop" on Christoph', () => {
         expect('Christoph').toMatch(/stop/);
     });
     const shoppingList = [
