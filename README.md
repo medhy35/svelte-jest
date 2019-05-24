@@ -4,8 +4,8 @@
 
 [![Build Status](https://travis-ci.org/medhy35/svelte-jest.svg?branch=master)](https://travis-ci.org/medhy35/svelte-jest)
 [![install size](https://packagephobia.now.sh/badge?p=svelte)](https://packagephobia.now.sh/result?p=svelte)
- ## Install
- Requires [Node](https://nodejs.org/en/) version 6 or above.
+
+
 
 # Install
 
@@ -16,12 +16,14 @@ cd my-svelte-project
 ```
  Install [Jest](https://jestjs.io/).
 ```sh
-npx degit sveltejs/template my-svelte-project
-cd my-svelte-project
+npm install --save-dev jest
+or 
+yarn add --dev jest
 ```
 
+## Configuration
 
-## Use
+After installation configure babel to support ES2015 modules  
 
 ### Step 1 :
 
